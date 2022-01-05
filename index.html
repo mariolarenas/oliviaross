@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!--iconos de Fonawesomet-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+
+    <!--Font Raleway-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,300&family=Raleway:wght@400;700;800&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Mi Estilo-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Olivia Ros - Food Blogger</title>
+  </head>
+  <body>
+    <!--Barra de navegacion-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">OLIVIA ROS</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about"
+              >Acerca de mi <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Principal
+      aca va el Hero: es el banner inicial de nuestro sitio
+      -->
+    <header class="hero text-ligth text-right pt-5 mt-5 text-white">
+      <div class="container">
+        <h1 class="display-1 font-weight-bold my-5">
+          Comidas del fin del mundo
+        </h1>
+        <p class="my-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci at
+          officiis illum autem necessitatibus cum eligendi voluptatem quos neque
+          temporibus?
+        </p>
+        <a href="#works" class="btn btn-outline-info btn-lg mr-4">Trabajos</a>
+        <a href="#contact" class="btn btn-info btn-lg">Contacto</a>
+      </div>
+    </header>
+    <!--Carrusel Me has visto-->
+    <div class="container my-5 py-3">
+      <div class="row">
+        <div class="col-4 p-4 text-right">
+          <h2 class="font-weight-bold">Me has visto en:</h2>
+        </div>
+        <div class="col-8 bg-secondary text-white rounded pt-4 pb-5">
+          <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li
+                data-target="#blogCarousel"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li data-target="#blogCarousel" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <div class="row">
+                  <div class="col-3">
+                    <i
+                      class="fab fa-codepen fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="CodePen"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-apper fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Apper"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-angrycreative fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Angry Creative"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-google fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Google"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item text-center">
+                <div class="row">
+                  <div class="col-3">
+                    <i
+                      class="fab fa-500px fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="500px"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-apple fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Apple"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-aviato fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Aviato"
+                    ></i>
+                  </div>
+                  <div class="col-3">
+                    <i
+                      class="fab fa-d-and-d fa-2x"
+                      data-container="body"
+                      data-toggle="popover"
+                      data-trigger="hover"
+                      data-placement="bottom"
+                      data-content="Dungeons & Dragons"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Acerca de mi-->
+    <section id="about" class="container text-center my-5">
+      <h2 class="display-3 font-weight-bold my-4 p">Acerca de mí</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ut quo
+        assumenda natus culpa. Quia nobis in ex at dolorem.
+      </p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fas fa-camera fa-3x my-3"></i>
+          <h3 class="my-3">Fotógrafa de comida</h3>
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            ducimus aperiam quibusdam sunt ratione assumenda vitae dignissimos,
+            officiis voluptatibus eaque.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-bullhorn fa-3x my-3"></i>
+          <h3 class="my-3">Crítica Culinaria</h3>
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            ducimus aperiam quibusdam sunt ratione assumenda vitae dignissimos,
+            officiis voluptatibus eaque.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <i class="far fa-map fa-3x my-3"></i>
+          <h3 class="my-3">Bloggera de viajes</h3>
+          <p class="my-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            ducimus aperiam quibusdam sunt ratione assumenda vitae dignissimos,
+            officiis voluptatibus eaque.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Mis Trabajos Cards-->
+    <section class="container-fluid my-5 p-5 bg-info" id="works">
+      <h2 class="display-4 text-center font-weight-bold text-white mb-3">
+        Mis trabajos
+      </h2>
+      <div class="card-deck">
+        <div class="card" style="width: 18rem">
+          <img src="./assets/img/card-1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Asado en la patagonia</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              doloribus quaerat nulla reiciendis ipsa.
+            </p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#asado">
+              Ver mas
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./assets/img/card-2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">papas del fin del mundo</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              doloribus quaerat nulla reiciendis ipsa.
+            </p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#papas">
+              Ver mas
+            </button>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img src="./assets/img/card-3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Salmones de Alazka</h5>
+            <p class="card-text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              doloribus quaerat nulla reiciendis ipsa.
+            </p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#salmones">
+              Ver mas
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--informacion de los modales-->
+
+    <!-- Modal Asado-->
+<div class="modal fade" id="asado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid mb-3" src="./assets/img/card-1.jpg" alt="Asado">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam eveniet eos provident, consequatur at magnam expedita aspernatur in rem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam eveniet eos provident, consequatur at magnam expedita aspernatur in rem!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal papas-->
+<div class="modal fade" id="papas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid mb-3" src="./assets/img/card-2.jpg" alt="Asado">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam eveniet eos provident, consequatur at magnam expedita aspernatur in rem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam eveniet eos provident, consequatur at magnam expedita aspernatur in rem!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal salmones-->
+<div class="modal fade" id="salmones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="img-fluid mb-3" src="./assets/img/card-3.jpg" alt="Asado">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam eveniet eos provident, consequatur at magnam expedita aspernatur in rem!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti numquam eveniet eos provident, consequatur at magnam expedita aspernatur in rem!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--Contacto-->
+    <div class="container">
+      <h2 class="display-3 font-weight-bold my-4 text-center">Acerca de mí</h2>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ut quo
+        assumenda natus culpa. Quia nobis in ex at dolorem.
+      </p>
+
+      <form id="contact" action="www.indexdatos.html">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            aria-describedby="nombre"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Correo Electronico</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-info float-right">Enviar</button>
+      </form>
+    </div>
+    <!--Typeform-->
+    <div data-tf-widget="NeZux9ec" data-tf-iframe-props="title=Formulario de Contacto" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+    <!--Footer-->
+
+    <footer class="bg-dark text-white text-center p-3">
+      <p>Olivia Ros 2021. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
